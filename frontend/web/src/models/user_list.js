@@ -22,7 +22,7 @@ export class UserList extends React.Component {
     this.setState({
       ...this.state,
       users: [...this.state.users.map((u, i) => {
-        if (i != modId) {
+        if (i !== Number(modId)) {
           return u;
         }
         return {
@@ -39,7 +39,7 @@ export class UserList extends React.Component {
     this.setState({
       ...this.state,
       users: [...this.state.users.map((u, i) => {
-        if (i != modId) {
+        if (i !== Number(modId)) {
           return u;
         }
         return {

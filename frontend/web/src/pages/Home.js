@@ -3,10 +3,9 @@ import { StyledNav } from "../models/nav";
 import styled from "styled-components";
 import { StyledGameList } from "../models/game_list";
 import { StyledGameDetail } from "../models/game_detail";
-import { primaryBackgroundColour, primaryColour, textColour } from "../colours";
+import { primaryBackgroundColour, textColour } from "../colours";
 import { OverlayButton, RoundCloseButton, StyledButton } from "../models/button";
 import { StyledStartGame } from "../models/start_game";
-import { StyledJoinGame } from "../models/join_game";
 
 export const Home = props => {
   // {props => <div className="start-new-game-button" onClick={props.toggle}>+asdfkasdfkjasdkjfjds dsf sd f sdf sdf sd </div>}

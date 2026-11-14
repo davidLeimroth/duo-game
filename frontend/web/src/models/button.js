@@ -1,4 +1,4 @@
-import React, { Children, isValidElement, cloneElement } from "react";
+import React, { isValidElement, cloneElement } from "react";
 import styled from "styled-components";
 import { primaryBackgroundColour, textColour, boxShadow, primaryColour, boxShadowBig, secondaryBackgroundColour } from "../colours";
 
@@ -63,7 +63,7 @@ export const PlusButton = styled(plusButton)`
 export class ToggleButton extends React.Component {
   constructor(props) {
     super(props);
-    if (props.children.length != 2) {
+    if (props.children.length !== 2) {
       throw new Error("OverlayButton must have 2 children, the first beeing the button and the second the overlays content")
     }
 
