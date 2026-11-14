@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import { boxShadow, primaryColour, cardA, boxShadowBig, secondaryBackgroundColour, textColour, primaryBackgroundColour } from "../colours";
+import { boxShadow, boxShadowBig, primaryBackgroundColour } from "../colours";
 
 export const GameList = props => {
   return <div className={props.className}>
